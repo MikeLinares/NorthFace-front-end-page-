@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    margin: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 660px 130px 50px 1100px 600px 900px;
+}
+
+
+
+
+.nav {
+    display: grid;
+    grid-template-columns: 5px 1fr; 
+    grid-column-gap: 60px; 
+}
+
+.north {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo {
+    box-sizing: border-box;
+    width: 80px;
+
+    padding-top: 5px;
+
+    
+    height: 150px;
+    object-fit: cover;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+
+.links {
+    text-align: start;
+    font-family: 'Oswald', sans-serif;
+
+    padding-top: 67px;
+}
+
+.splash {
+    background-image: url("../Images/splash.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px repeat(11, 1fr);
+    grid-column-gap: 5px; 
+    
+    
+    
+}
+
+.bar {
+    background-color: black ;
+    color: white;
+    
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 15px;
+    text-align: center;
+
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1 ;
+    
+}
+
+.headerText {
+    font-size: 75px;
+    font-weight: 600;
+
+    grid-column: 3 / span 3 ;
+    grid-row: 5 / span 1 ;
+}
+
+.thumbText {
+    font-size: 75px;
+    font-weight: 600;
+
+    grid-column: 3 / span 4 ;
+    grid-row: 6 / span 1 ;
+
+}
+
+#subText {
+    font-size: 20px;
+    font-weight: 550;
+
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+    grid-column: 3 / span 3;
+    grid-row: 7 / span 1 ;
+}
+
+.womenText {
+    box-sizing: border-box;
+    background-color:  rgba(255, 255, 255, 0.726);
+    width: 250px;
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    
+    grid-row-gap: 0px;
+    grid-column: 3 / span 1;
+    grid-row: 8 / span 1 ;
+}
+
+.menText {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 250px;
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    
+    grid-column: 4 / span 1;
+    grid-row: 8 / span 1 ;
+}
+
+.guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.holidayGift {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(27, 26, 26);
+
+    padding-top: 35px ;
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.buttons {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.726);
+    border: 1px solid black;
+    width: 250px;
+
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+.a {
+  margin-right: 5px;
+}
+
+.b {
+    margin-right: 5px;
+}
+
+.imgbox {
+   
+    margin: 40px
+
+}
+
+.wear {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.l {
+    height: 55vh;
+    width: 25vw;
+
+    background-image: url("../Images/logowear.jpg");
+    background-repeat: no-repeat;
+    
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.i {
+    height: 55vh;
+    width: 25vw;
+
+    background-image: url("../Images/insulatedjackets.jpg");
+    background-size: 25vw 55vh;
+    background-repeat: no-repeat;
+}
+
+.k {
+
+    height: 55vh;
+    width: 25vw;   
+    
+    background-image: url("../Images/kidsjackets.jpg");
+    background-size: 25vw 55vh;
+    background-repeat: no-repeat;
+}
+
+.w {
+
+    height: 55vh;
+    width: 25vw; 
+
+    background-image: url("../Images/winterboots.jpg");
+    background-size: 25vw 55vh;
+    background-repeat: no-repeat;
+
+   
+}
+
+.f {    
+
+    height: 55vh;
+    width: 25vw; 
+
+    background-image: url("../Images/fleece.jpg");
+    background-size: 25vw 55vh;
+    background-repeat: no-repeat;
+
+    
+}
+
+.t {
+
+    height: 55vh;
+    width: 25vw;         
+
+    background-image: url("../Images/thermoball.jpg");
+    background-size: 25vw 55vh;
+    background-repeat: no-repeat;
+
+    
+}
+
+.logoText {
+    color: white;
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    padding-top: 350px;
+    padding-bottom: 15px;
+    
+}
+
+.buttonText {
+    
+    background-color: rgba(255, 255, 255, 0.726);
+    
+    display: inline;
+
+
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 500px;
+
+    margin-left: 100px;
+    
+    padding: 5px;
+    
+    
+}
+
+.a {
+    margin-left: 20px;
+}
+
+.bigContent {
+    background-image: url("../Images/Skiing.jpg");
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 175px;
+}
+
+.ski {
+    color:white
+}
+
+.def {
+    font-size: 3rem;
+    font-weight: 750;
+}
+
+.ying {
+    padding-left: 90.5px;
+}
+
+.lhotse {
+    padding-left: 40px;
+}
+
+.future {
+    font-weight: 650;
+}
+
+.see {
+    font-size: .9em;
+    padding-top: 20px;
+}
+
+.north {
+    font-size: .9em;
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+
+.more {
+    background-color: rgba(255, 255, 255, 0.726);
+    
+    font-size: 15px;
+    color: black;
+
+    margin-left: 160px;
+    padding: 10px;
+
+    display: inline;
+}
+
+#summit {
+    margin-left: .5px;
+}
+
+.activeMountain {
+    display: flex;
+    flex-wrap: wrap;
+}
+.two {
+    width: 50%;
+}
+
+.sky {
+    background-image: url("../Images/mountainleft.PNG");
+    background-repeat: no-repeat;
+}
+
+.women {
+    background-image: url("../Images/mountainRight.PNG");
+    background-repeat: no-repeat;
+}
+
+/* Professor I couldnt find a way to get the original source for the image for the last box of the image
+i decided to leave like that but i did save the code for the lettering and buttons for the future reference */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
